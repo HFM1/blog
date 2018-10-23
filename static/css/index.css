@@ -1,0 +1,233 @@
+
+body {
+    margin: 0px;
+    background-image: url(/images/body.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    z-index: 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+* {
+    margin: 0px;
+}
+.header {
+    width: 100%;
+    height: 52px;
+    background-color: lightblue;
+    position: fixed;
+    z-index: 10;
+}
+ul {
+    /* margin-top: 10px; */
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    color: black;
+}
+.main {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 52px;
+    /* background-color: #E8E8E8; */
+    z-index: 0;
+    opacity: 0.6;
+
+}
+.foot {
+    display: block;
+    width: 50%;
+
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    color: rgba(26, 26, 26, 1);
+    left: 25%;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.img-header {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    padding: 5px;
+    right: 20%;
+    border-radius: 50%;
+}
+.title {
+    width: 100%;
+    /* margin: 5px; */
+    margin-top: 20px;
+    /* padding-left: 15px; */
+    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+
+}
+.content {
+
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    /* padding: 5px; */
+    /* border-bottom: 1px solid 	#D3D3D3; */
+}
+.content-main {
+    margin-bottom: 16px;
+    background-color: #FAFAFA;
+    border: 1px solid #D3D3D3;
+}
+.author {
+    width: 80%;
+    height: 20px;
+    color: #0084ff;
+    padding-left: 5px;
+    margin: 20px;
+    /* display: inline-block; */
+    /* border-bottom: 1px solid 	#D3D3D3; */
+}
+.content-article {
+    width: 80%;
+}
+h3 {
+    padding: 5px;
+    margin-left: 20px;
+}
+.p-vote {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+button {
+    width: 100px;
+    /* height: 25px; */
+    border: 0px solid black;
+    color: #0084ff;
+    background: rgba(0, 132, 255, 0.1)
+}
+.class-author {
+    display: inline-block;
+    /* margin-left: 30px; */
+}
+.time {
+    margin-left: 20px;
+}
+
+.label_container {
+    width: 800px;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    vertical-align: middle;
+
+}
+label {
+    display: block;
+    padding: 20px;
+}
+.article-conatiner {
+    margin-top: 40px;
+    width: 700px;
+    height: 550px;
+    background-color: white;
+}
+.blog-title {
+    border: 1px solid blue;
+    width: 85%;
+    height: 27px;
+}
+.blog-mima {
+    border: 1px solid blue;
+    width: 85%;
+    height: 27px;
+}
+.blog-author {
+    border: 1px solid blue;
+    width: 85%;
+    height: 27px;
+}
+.blog-text {
+    border: 1px solid blue;
+    width: 85%;
+
+}
+.input-author {
+    border: 1px solid blue;
+    width: 75%;
+    margin: 10px;
+}
+.comment-text {
+    border: 1px solid blue;
+    width: 75%;
+    margin: 10px;
+
+}
+.blog-button {
+    display: block;
+    /* float: right; */
+    position: absolute;
+    left: 70%;
+    top:90%;
+    height: 30px;
+
+}
+p {
+    display: inline-block;
+}
+.p-content {
+    vertical-align:middle;
+    margin-bottom: 200px;
+    /* padding: 10px; */
+}
+.comment {
+    /* display: inline-block; */
+    border-top: 1px solid #D3D3D3;
+    margin-left: 20px;
+}
+.c-author {
+    height: 20px;
+    color: black;
+    margin: 20px;
+}
+t {
+    float: right;
+}
+.c-content {
+
+    color: black;
+    margin: 20px;
+}
+.submit-comment {
+    width: 100px;
+    height: 30px;
+    margin-left: 65%;
+    margin-bottom: 20px;
+}
+.comment-submit {
+    margin-left: 20px;
+}
+#input-search {
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px lightblue;
+    border: 1px solid lightblue;
+}
+#button-search {
+    border-radius: 10px;
+    color: black;
+}
+.hide {
+    display: none;
+
+}
